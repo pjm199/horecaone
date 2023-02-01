@@ -1,0 +1,41 @@
+{
+  "name": "MyHoreca",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "webpack serve --open",
+    "start": "node server.js",
+    "build": "del-cli dist && webpack --mode production"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@popperjs/core": "^2.11.6",
+    "bigpicture": "^2.6.2",
+    "bootstrap": "^5.2.2",
+    "emailjs-com": "^3.2.0",
+    "express": "^4.18.2",
+    "flickity": "^2.3.0",
+    "flickity-imagesloaded": "^2.0.0",
+    "imagesloaded": "^4.1.4",
+    "isotope-layout": "^3.0.6",
+    "jarallax": "^1.12.8",
+    "mapbox-gl": "^2.10.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "copy-webpack-plugin": "^9.1.0",
+    "css-loader": "^5.2.7",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "del-cli": "^4.0.1",
+    "handlebars-webpack-plugin": "^2.2.1",
+    "mini-css-extract-plugin": "^1.6.2",
+    "node-sass": "^7.0.3",
+    "postcss-loader": "^6.2.1",
+    "sass-loader": "^12.6.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-remove-empty-scripts": "^0.7.3"
+  }
+}
