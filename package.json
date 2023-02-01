@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "webpack serve --open",
     "start": "node server.js",
-    "build": "del-cli dist && webpack --mode production"
+    "build": "del-cli dist && webpack --mode production --output public"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
