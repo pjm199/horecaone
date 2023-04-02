@@ -30,23 +30,35 @@
     
     <!-- Title -->
     <title>HORECA - Hotel Ristoranti Caffé &amp; Restaurant Hotel Cafè</title>
+
   </head>
   <body>
    
-    {{> partials/navbar-index}}
+    {{> partials/navbar-index }}
+    
+    {{> partials/welcome }}
+    
+    <!-- <div style="padding-bottom: 0px; padding-top: 5px; width: 96%; margin: 0px 1%;">
+      <h3 class="acco" onclick="displayAccordionContent(2,this)"
+          style="margin:10px 0px 0px 0px; border-bottom: 1px solid #f2f2f2; padding: 0px 0px 5px 0px;">
+          Ciccio Pasticcio!
+          ::after
+      </h3>
+    </div> -->
 
-    {{> partials/welcome}}
     
     {{> partials/discover }}
     
     {{> partials/discoverTwo }}
 
-    {{> partials/about}}    
+    {{> partials/about }}
 
-    {{> partials/menu}}
+    {{> partials/dishes }} 
+
+    {{> partials/menu }}
+
+    {{> partials/gallery }}
     
-    {{> partials/dishes}} 
-
     {{> partials/reservations }}   
 
     {{> partials/testimonials }}    
@@ -54,10 +66,6 @@
     {{> partials/events }}
     
     {{> partials/newsletter}}    
-
-    {{> partials/gallery}}
-
-    {{> partials/map}}
 
     {{> partials/footer}}
     
